@@ -1,7 +1,7 @@
   [ 
   { 
    "id":1 ,
-    "name":"iphone" ,
+    "name":"OnePlus" ,
      "price": 12350,
      "img": "./images/pexels-cottonbro-5054349.jpg"
 
@@ -9,21 +9,21 @@
 
   { 
     "id":2 ,
-     "name":"iphone" ,
+     "name":"sony" ,
       "price": 12300,
       "img": "./images/pexels-josh-sorenson-1334598.jpg"
  
    },
    { 
     "id":3 ,
-     "name":"iphone" ,
+     "name":"htc" ,
       "price": 24230,
       "img": "./images/pexels-lisa-fotios-1092644.jpg"
  
    },
    { 
     "id":4 ,
-     "name":"iphone" ,
+     "name":"vivo" ,
       "price": 12930,
       "img": "./images/pexels-mohi-syed-50614.jpg"
  
@@ -45,8 +45,23 @@
    { 
     "id":7 ,
      "name":"walton" ,
-      "price": 20030,
+      "price": 9030,
       "img": "./images/pexels-zana-latif-4578162.jpg"
  
-   }
+   } ,
+   { 
+    "id":8 ,
+     "name":"Lg" ,
+      "price": 10030,
+      "img": "./images/pexels-zana-latif-4578162.jpg"
+ 
+   } ,
+   { 
+    "id":9 ,
+     "name":"Apple" ,
+      "price": 20060,
+      "img": "./images/pexels-zana-latif-4578162.jpg"
+ 
+   } 
+  
   ]
