@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Cards/Card';
  import "./Product.css"  
-  
+ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Product(props) {
     const [products,setProducts] = useState ([]) 
@@ -18,7 +18,11 @@ function Product(props) {
      const addHandle =(product)=>{ 
              const newcart =[...cart,product] 
              setcart(newcart);
-     }
+     } 
+     // remove btn 
+      const removeItem =()=>{ 
+          setcart([])
+      }
     return (
          <> 
            <div className="container"> 
@@ -37,7 +41,9 @@ function Product(props) {
             <div className="details-product"> 
                   
                   <h2> selected item</h2>
-                  <div> 
+                  <div className='wraping-item'> 
+                  <button className='btn btn-primary'> chose a ramdom Item</button> 
+                  <button className='btn btn-primary ' onClick={()=>removeItem()}> Remove Items </button>
                      { 
                        cart.map((cart)=>{ 
                            return( 
@@ -50,8 +56,7 @@ function Product(props) {
                        })
                      }
                   </div> 
-                  <button> chose a ramdom Item</button> 
-                  <button> Remove Items </button>
+                 
                   </div> 
                  
            </div>

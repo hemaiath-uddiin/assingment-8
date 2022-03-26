@@ -8,10 +8,25 @@
    grid-template-columns: repeat(2, 2fr); 
    gap:40px
 
-} 
+}  
+@media only screen and (max-width: 700px) {
+    .product-container {
+        display: grid; 
+        grid-template-columns: repeat(1, 1fr); 
+    }
+  }
 .details-product {
     background: silver;
     text-align: center;
    
   
 } 
+.wraping-item { 
+    position: sticky; 
+    top:0;
+} 
+.wraping-item button {
+    margin: 10px 5px;
+    font-size: 16px;
+    text-transform: capitalize;
+}

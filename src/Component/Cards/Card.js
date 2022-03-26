@@ -7,7 +7,7 @@ function Card( {product,addHandle}) {
             <img src= {img} alt="" /> 
             <h3> Name: {name}  </h3> 
             <h4> Price: ${price}  </h4> 
-            <button onClick={()=> addHandle(product)} className='btn'> Add To Cart  </button>
+            <button className="btn btn-primary" onClick={()=> addHandle(product)} > Add To Cart  </button>
         </div>
     );
 }
