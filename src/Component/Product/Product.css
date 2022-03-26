@@ -8,4 +8,10 @@
    grid-template-columns: repeat(2, 2fr); 
    gap:40px
 
-}
+} 
+.details-product {
+    background: silver;
+    text-align: center;
+   
+  
+} 
