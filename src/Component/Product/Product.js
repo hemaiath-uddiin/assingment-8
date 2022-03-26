@@ -25,10 +25,21 @@ function Product(props) {
           setcart([])
       } 
       // random btn 
-     
+        const [chose,setChose] = useState([]) 
+        const random =(products)=>{ 
+          const randomIndex = Math.floor(Math.random() * products.length); 
+           
+          let item = products[randomIndex]; 
+        
+          setChose(item); 
+            
+        }
+      
     return (
          <>  
-         <h2 className='text-center mb-5'> Upcoming Latest Phone</h2>
+         <h2 className='text-center mb-5'> Upcoming Latest Phone</h2> 
+         
+         
            <div className="container"> 
            
             <div className='product-container'>
@@ -44,10 +55,13 @@ function Product(props) {
             </div> 
             <div className="details-product"> 
                   
-                  <h2> selected item</h2>
+                
                   <div className='wraping-item'> 
-                  <button className='btn btn-primary'> chose a ramdom Item</button> 
+                  <h2> {chose.name}  </h2>  
+                  <img src= {chose.img} alt="" />
+                  <button onClick={()=>random(products)} className='btn btn-primary'> chose  Item</button> 
                   <button className='btn btn-primary ' onClick={()=>removeItem()}> Remove Items </button>
+                  <h2> selected item</h2>
                      { 
                        cart.map((cart)=>{ 
                            return( 

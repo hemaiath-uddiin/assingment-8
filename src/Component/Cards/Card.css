@@ -1,4 +1,7 @@
 img{ 
     width: 377px; 
     height: 200px;
+} 
+.btss button {
+    display: flex;
 }

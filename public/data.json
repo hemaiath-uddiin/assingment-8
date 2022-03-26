@@ -32,7 +32,7 @@
     "id":5 ,
      "name":"xaoumi" ,
       "price": 1230,
-      "img": "./images/pexels-torsten-dettlaff-193004.jpg" ,
+      "img": "./images/pexels-torsten-dettlaff-193004.jpg" 
         
  
    }, 
