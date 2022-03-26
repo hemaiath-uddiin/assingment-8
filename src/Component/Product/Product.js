@@ -27,6 +27,7 @@ function Product(props) {
       // random btn 
         const [chose,setChose] = useState([]) 
         const random =(products)=>{ 
+           
           const randomIndex = Math.floor(Math.random() * products.length); 
            
           let item = products[randomIndex]; 
@@ -49,7 +50,6 @@ function Product(props) {
                     addHandle ={addHandle}
                     product = {product}  
                     
-                    key ={product.id}
                     />)
                 }
             </div> 
@@ -68,7 +68,7 @@ function Product(props) {
                               <div className="cart-wrap"> 
                               <h2> {cart.name}  </h2> 
                               <img src={cart.img} alt="" /> 
-                              
+                            
                               </div>
                            )
                        })
