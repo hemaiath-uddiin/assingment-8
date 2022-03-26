@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Card from '../Cards/Card';
  import "./Product.css"  
  import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from '../Footer/Footer';
 
 function Product(props) {
     const [products,setProducts] = useState ([]) 
@@ -22,13 +23,16 @@ function Product(props) {
      // remove btn 
       const removeItem =()=>{ 
           setcart([])
-      }
+      } 
+      // random btn 
+     
     return (
-         <> 
+         <>  
+         <h2 className='text-center mb-5'> Upcoming Latest Phone</h2>
            <div className="container"> 
-             
+           
             <div className='product-container'>
-               
+              
                 { 
                   products.map(product=> <Card  
                     addHandle ={addHandle}
@@ -59,7 +63,8 @@ function Product(props) {
                  
                   </div> 
                  
-           </div>
+           </div> 
+           <Footer />
          
          </>
     );
