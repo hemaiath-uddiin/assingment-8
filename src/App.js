@@ -1,9 +1,10 @@
+import Product from "./Component/Product/Product";
 
 
 function App() {
   return (
     <div className="App">
-       <h2> hi fghfg</h2>
+        <Product />
 
     </div>
   );

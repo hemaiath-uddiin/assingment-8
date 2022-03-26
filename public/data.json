@@ -1,0 +1,52 @@
+  [ 
+  { 
+   "id":1 ,
+    "name":"iphone" ,
+     "price": 12350,
+     "img": "./images/pexels-cottonbro-5054349.jpg"
+
+  },
+
+  { 
+    "id":2 ,
+     "name":"iphone" ,
+      "price": 12300,
+      "img": "./images/pexels-josh-sorenson-1334598.jpg"
+ 
+   },
+   { 
+    "id":3 ,
+     "name":"iphone" ,
+      "price": 24230,
+      "img": "./images/pexels-lisa-fotios-1092644.jpg"
+ 
+   },
+   { 
+    "id":4 ,
+     "name":"iphone" ,
+      "price": 12930,
+      "img": "./images/pexels-mohi-syed-50614.jpg"
+ 
+   },
+   { 
+    "id":5 ,
+     "name":"xaoumi" ,
+      "price": 1230,
+      "img": "./images/pexels-torsten-dettlaff-193004.jpg"
+ 
+   }, 
+   { 
+    "id":6 ,
+     "name":"xaoumi" ,
+      "price": 1830,
+      "img": "./images/pexels-tyler-lastovich-699122.jpg"
+ 
+   }, 
+   { 
+    "id":7 ,
+     "name":"walton" ,
+      "price": 20030,
+      "img": "./images/pexels-zana-latif-4578162.jpg"
+ 
+   }
+  ]
